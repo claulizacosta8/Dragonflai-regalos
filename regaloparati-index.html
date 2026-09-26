@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>¿Te llegó un regalo así? — Haz el tuyo</title>
+<meta name="description" content="Si alguien te regaló una app personalizada, aquí puedes hacer la tuya — para regalar a quien tú quieras.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#F4F3F8; --card:#FFFFFF; --plum:#7A4AD6; --plum-dark:#5B3A8C;
+    --coral:#D64A96; --text:#201A2E; --text-soft:#756B85; --border:#E3DCF0;
+  }
+  *{ box-sizing:border-box; }
+  body{
+    margin:0; background: var(--bg); font-family:'Work Sans', sans-serif; color: var(--text);
+    -webkit-tap-highlight-color: transparent;
+  }
+  h1,h2{ font-family:'Fraunces', serif; font-weight:600; margin:0; }
+  #wrap{ max-width:480px; margin:0 auto; padding:48px 22px 60px; }
+  .emoji{ font-size:3.2rem; text-align:center; margin-bottom:6px; }
+  h1{ font-size:1.7rem; text-align:center; color: var(--plum-dark); margin-bottom:10px; }
+  .lead{ text-align:center; color: var(--text-soft); font-size:1rem; line-height:1.5; margin-bottom:32px; }
+
+  .card{
+    background: var(--card); border:1px solid var(--border); border-radius:20px;
+    padding:24px; margin-bottom:20px;
+  }
+  .card h2{ font-size:1.1rem; margin-bottom:8px; }
+  .card p{ font-size:0.95rem; color: var(--text-soft); line-height:1.55; margin:0; }
+
+  .code-box{
+    background: linear-gradient(120deg, var(--plum), var(--coral));
+    border-radius:16px; padding:20px; text-align:center; color:#fff; margin-bottom:24px;
+  }
+  .code-box p{ margin:0 0 8px; font-size:0.85rem; opacity:.9; }
+  .code-box .code{ font-family:'Fraunces', serif; font-size:1.7rem; font-weight:700; letter-spacing:1px; }
+
+  .btn{
+    display:block; text-align:center; background: var(--plum); color:#fff; text-decoration:none;
+    padding:16px; border-radius:14px; font-weight:700; font-size:1.05rem; margin-top:8px;
+  }
+  .btn-ghost{
+    display:block; text-align:center; background:none; border:1.5px solid var(--plum);
+    color: var(--plum-dark); text-decoration:none; padding:14px; border-radius:14px;
+    font-weight:600; font-size:0.95rem; margin-top:12px;
+  }
+
+  ul.steps{ list-style:none; padding:0; margin:0; }
+  ul.steps li{ display:flex; gap:12px; margin-bottom:14px; font-size:0.92rem; }
+  ul.steps li:last-child{ margin-bottom:0; }
+  ul.steps .num{
+    width:26px; height:26px; border-radius:50%; background: var(--plum); color:#fff;
+    display:flex; align-items:center; justify-content:center; font-size:0.8rem; font-weight:700; flex-shrink:0;
+  }
+
+  footer{ text-align:center; color: var(--text-soft); font-size:0.82rem; margin-top:24px; }
+  footer a{ color: var(--plum-dark); }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <div class="emoji">🦋</div>
+  <h1>¿A ti te llegó un regalo así?</h1>
+  <p class="lead">Alguien pensó en ti y te mandó algo hecho especialmente para ti. Si quieres hacer lo mismo por alguien más, aquí te explicamos cómo.</p>
+
+  <div class="card">
+    <h2>¿Qué es esto?</h2>
+    <p>Una mini-app hecha solo para una persona — con su nombre, mensajes pensados para su situación, y funciones que de verdad usa varios días. No es una tarjeta digital que se ve una vez: se instala en el celular como cualquier app, sin tienda, sin cuenta, sin complicaciones.</p>
+  </div>
+
+  <div class="card">
+    <h2>Cómo funciona</h2>
+    <ul class="steps">
+      <li><span class="num">1</span> Eliges el diseño según la ocasión (o pides uno a la medida)</li>
+      <li><span class="num">2</span> Cuentas sobre la persona: su nombre, tono, qué necesita</li>
+      <li><span class="num">3</span> Recibes el link + QR — listo para mandar en unos días</li>
+    </ul>
+  </div>
+
+  <a class="btn" href="https://dragonflailabs.com?ref=regalo-recibido" target="_blank" rel="noopener">Hacer la mía</a>
+  <a class="btn-ghost" href="https://wa.me/524411310704?text=Hola%2C%20me%20lleg%C3%B3%20un%20regalo%20de%20DragonflAI%20Labs%20y%20quiero%20hacer%20el%20m%C3%ADo" target="_blank" rel="noopener">Preguntar por WhatsApp</a>
+
+  <footer>
+    Un proyecto de <a href="https://dragonflailabs.com" target="_blank" rel="noopener">DragonflAI Labs</a>
+  </footer>
+</div>
+</body>
+</html>
